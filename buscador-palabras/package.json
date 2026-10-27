@@ -4,11 +4,11 @@
   "private": true,
   "description": "Buscador de palabras con JavaScript, Webpack y Babel",
   "scripts": {
-  "start": "webpack serve --mode development --open",
-  "build": "webpack --mode production",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
